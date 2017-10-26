@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OP1177
+D Precision Low Noise, Low Input Bias Current Operational Amplifier
+K single opamp
+F http://www.analog.com/media/en/technical-documentation/data-sheets/OP179_279.pdf
+$ENDCMP
+#
+#End Doc Library
