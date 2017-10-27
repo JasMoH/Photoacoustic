@@ -1124,13 +1124,13 @@ Connection ~ 5100 2450
 $Comp
 L POT RV1
 U 1 1 59F30629
-P 3500 2450
-F 0 "RV1" V 3325 2450 50  0000 C CNN
-F 1 "POT" V 3400 2450 50  0000 C CNN
-F 2 "" H 3500 2450 50  0001 C CNN
-F 3 "" H 3500 2450 50  0001 C CNN
-	1    3500 2450
-	-1   0    0    1   
+P 3500 2400
+F 0 "RV1" V 3325 2400 50  0000 C CNN
+F 1 "POT" V 3400 2400 50  0000 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_PV36W" H 3500 2400 50  0001 C CNN
+F 3 "" H 3500 2400 50  0001 C CNN
+	1    3500 2400
+	0    1    1    0   
 $EndComp
 Connection ~ 3500 2300
 Connection ~ 3500 2600
@@ -1167,12 +1167,17 @@ Wire Wire Line
 Connection ~ 7650 2900
 Wire Wire Line
 	8800 2800 8800 2900
-NoConn ~ 3250 2450
-Wire Wire Line
-	3350 2450 3250 2450
+NoConn ~ 3200 2400
 Wire Wire Line
 	1150 5850 1750 5850
 Connection ~ 1500 5850
 Wire Wire Line
 	1500 5900 1500 5850
+Wire Wire Line
+	3650 2300 3650 2400
+Wire Wire Line
+	3500 2550 3500 2600
+Connection ~ 3650 2300
+Wire Wire Line
+	3350 2400 3200 2400
 $EndSCHEMATC
