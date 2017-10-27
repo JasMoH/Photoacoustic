@@ -100,10 +100,10 @@ F 3 "" H 1950 6600 50  0001 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L -5V #PWR4
+L -5V #PWR2
 U 1 1 59F0CCD0
 P 1500 6550
-F 0 "#PWR4" H 1500 6650 50  0001 C CNN
+F 0 "#PWR2" H 1500 6650 50  0001 C CNN
 F 1 "-5V" H 1500 6700 50  0000 C CNN
 F 2 "" H 1500 6550 50  0001 C CNN
 F 3 "" H 1500 6550 50  0001 C CNN
@@ -422,10 +422,10 @@ F 3 "" H 9300 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -5V #PWR17
+L -5V #PWR23
 U 1 1 59F12A5C
 P 9950 6050
-F 0 "#PWR17" H 9950 6150 50  0001 C CNN
+F 0 "#PWR23" H 9950 6150 50  0001 C CNN
 F 1 "-5V" H 9950 6200 50  0000 C CNN
 F 2 "" H 9950 6050 50  0001 C CNN
 F 3 "" H 9950 6050 50  0001 C CNN
@@ -438,7 +438,7 @@ U 1 1 59F138B8
 P 9300 5850
 F 0 "C10" H 9325 5950 50  0000 L CNN
 F 1 "10u" H 9325 5750 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 9300 5850 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9300 5850 50  0001 C CNN
 F 3 "" H 9300 5850 50  0001 C CNN
 	1    9300 5850
 	0    -1   -1   0   
@@ -449,7 +449,7 @@ U 1 1 59F1391A
 P 9000 6050
 F 0 "C9" H 9025 6150 50  0000 L CNN
 F 1 "10u" H 9025 5950 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 9000 6050 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9000 6050 50  0001 C CNN
 F 3 "" H 9000 6050 50  0001 C CNN
 	1    9000 6050
 	0    -1   -1   0   
@@ -460,7 +460,7 @@ U 1 1 59F13981
 P 9600 6050
 F 0 "C11" H 9625 6150 50  0000 L CNN
 F 1 "10u" H 9625 5950 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_6.3x7.7" H 9600 6050 50  0001 C CNN
+F 2 "Capacitors_THT:CP_Radial_D5.0mm_P2.00mm" H 9600 6050 50  0001 C CNN
 F 3 "" H 9600 6050 50  0001 C CNN
 	1    9600 6050
 	0    -1   -1   0   
@@ -615,10 +615,10 @@ F 3 "" H 6400 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L -5V #PWR23
+L -5V #PWR22
 U 1 1 59F25EC1
 P 9900 3300
-F 0 "#PWR23" H 9900 3400 50  0001 C CNN
+F 0 "#PWR22" H 9900 3400 50  0001 C CNN
 F 1 "-5V" H 9900 3450 50  0000 C CNN
 F 2 "" H 9900 3300 50  0001 C CNN
 F 3 "" H 9900 3300 50  0001 C CNN
@@ -1036,7 +1036,7 @@ U 1 1 59F2EC95
 P 1150 5850
 F 0 "J4" H 1150 6120 50  0000 C CNN
 F 1 "TEST_1P" H 1150 6050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 1350 5850 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 1350 5850 50  0001 C CNN
 F 3 "" H 1350 5850 50  0001 C CNN
 	1    1150 5850
 	1    0    0    -1  
@@ -1047,7 +1047,7 @@ U 1 1 59F2ED33
 P 2850 5800
 F 0 "J7" H 2850 6070 50  0000 C CNN
 F 1 "TEST_1P" H 2850 6000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 3050 5800 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3050 5800 50  0001 C CNN
 F 3 "" H 3050 5800 50  0001 C CNN
 	1    2850 5800
 	1    0    0    -1  
@@ -1058,7 +1058,7 @@ U 1 1 59F2F50C
 P 5100 2650
 F 0 "J8" H 5100 2920 50  0000 C CNN
 F 1 "TEST_1P" H 5100 2850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 5300 2650 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 5300 2650 50  0001 C CNN
 F 3 "" H 5300 2650 50  0001 C CNN
 	1    5100 2650
 	-1   0    0    1   
@@ -1069,7 +1069,7 @@ U 1 1 59F2FF7B
 P 7650 2850
 F 0 "J10" H 7650 3120 50  0000 C CNN
 F 1 "TEST_1P" H 7650 3050 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 7850 2850 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 7850 2850 50  0001 C CNN
 F 3 "" H 7850 2850 50  0001 C CNN
 	1    7650 2850
 	1    0    0    -1  
@@ -1080,7 +1080,7 @@ U 1 1 59F30031
 P 8800 2800
 F 0 "J11" H 8800 3070 50  0000 C CNN
 F 1 "TEST_1P" H 8800 3000 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 9000 2800 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 9000 2800 50  0001 C CNN
 F 3 "" H 9000 2800 50  0001 C CNN
 	1    8800 2800
 	1    0    0    -1  
@@ -1091,7 +1091,7 @@ U 1 1 59F300D5
 P 6500 3500
 F 0 "J9" H 6500 3770 50  0000 C CNN
 F 1 "TEST_1P" H 6500 3700 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 6700 3500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6700 3500 50  0001 C CNN
 F 3 "" H 6700 3500 50  0001 C CNN
 	1    6500 3500
 	-1   0    0    1   
@@ -1102,7 +1102,7 @@ U 1 1 59F301A9
 P 9950 3500
 F 0 "J12" H 9950 3770 50  0000 C CNN
 F 1 "TEST_1P" H 9950 3700 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 10150 3500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 10150 3500 50  0001 C CNN
 F 3 "" H 10150 3500 50  0001 C CNN
 	1    9950 3500
 	-1   0    0    1   
@@ -1140,7 +1140,7 @@ U 1 1 59F30C92
 P 2900 1500
 F 0 "J6" H 2900 1770 50  0000 C CNN
 F 1 "TEST_1P" H 2900 1700 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 3100 1500 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3100 1500 50  0001 C CNN
 F 3 "" H 3100 1500 50  0001 C CNN
 	1    2900 1500
 	-1   0    0    1   
@@ -1151,7 +1151,7 @@ U 1 1 59F30D85
 P 2850 2900
 F 0 "J5" H 2850 3170 50  0000 C CNN
 F 1 "TEST_1P" H 2850 3100 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Big" H 3050 2900 50  0001 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 3050 2900 50  0001 C CNN
 F 3 "" H 3050 2900 50  0001 C CNN
 	1    2850 2900
 	-1   0    0    1   
