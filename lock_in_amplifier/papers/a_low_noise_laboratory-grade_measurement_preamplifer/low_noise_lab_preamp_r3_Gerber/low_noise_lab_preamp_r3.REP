@@ -1,0 +1,222 @@
+*************************************************************
+FileName = low_noise_lab_preamp_r3.GBR
+AutoAperture = True
+*************************************************************
+Generating : 
+      File : low_noise_lab_preamp_r3.GTL
+
+    Adding Layer      : TopLayer
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : 
+      File : low_noise_lab_preamp_r3.G1
+
+    Adding Layer      : MidLayer1
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D23
+    D24
+    D25
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : 
+      File : low_noise_lab_preamp_r3.G30
+
+    Adding Layer      : MidLayer30
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D23
+    D24
+    D25
+    D26
+    D28
+    D29
+    D30
+*************************************************************
+
+*************************************************************
+Generating : 
+      File : low_noise_lab_preamp_r3.GBL
+
+    Adding Layer      : BottomLayer
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+*************************************************************
+
+*************************************************************
+Generating : 
+      File : low_noise_lab_preamp_r3.GTP
+
+    Adding Layer      : TopPaste
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : TopLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D19
+    D20
+    D21
+    D23
+*************************************************************
+
+*************************************************************
+Generating : 
+      File : low_noise_lab_preamp_r3.GTS
+
+    Adding Layer      : TopSolder
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : TopLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D23
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : 
+      File : low_noise_lab_preamp_r3.GBS
+
+    Adding Layer      : BottomSolder
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : BottomLayer
+
+    Adding Layer      : MultiLayer
+
+
+Used DCodes :
+    D10
+    D23
+    D42
+    D43
+    D44
+    D45
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Drill Drawing
+      File : low_noise_lab_preamp_r3.GD1
+
+    Adding Layer      : Mechanical4
+
+    Adding Layer      : DrillDrawing
+
+    Adding Drill Pair : TopLayer-BottomLayer
+
+
+Used DCodes :
+    D10
+    D22
+    D23
+    D47
+*************************************************************
+
+*************************************************************
+Generating : Drill Guide
+      File : low_noise_lab_preamp_r3.GG1
+
+    Adding Layer      : DrillGuide
+
+    Adding Layer      : Mechanical4
+
+    Adding Drill Pair : TopLayer-BottomLayer
+
+
+Used DCodes :
+    D10
+    D22
+    D23
+*************************************************************
+

@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: low_noise_lab_preamp_r3.PCB   29-Nov-2011  12:03:21
+---------------------------------------------------------------------------
+
+
+
+Layer Pair : TopLayer to BottomLayer
+ASCII File : NCDrillOutput.TXT
+EIA File   : NCDrillOutput.DRL
+
+Tool         Hole Size          Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        0.38mm (14.961mil)       158              723.24 mm (28.47 Inch)
+T2        0.89mm (35.039mil)       9                269.12 mm (10.60 Inch)
+T3        1.14mm (44.882mil)       21               475.04 mm (18.70 Inch)
+T4        3.05mm (120.079mil)      4                321.24 mm (12.65 Inch)
+---------------------------------------------------------------------------
+Totals                             192              1788.64 mm (70.42 Inch)
+
+Total Processing Time : 00:00:01

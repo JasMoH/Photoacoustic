@@ -1,0 +1,24 @@
+CAM Outputs Generation Report
+for 'CAM Outputs for low_noise_lab_preamp_r3.cam'
+at 12:03:21 on 29-Nov-2011
+
+
+'NC Drill'
+'low_noise_lab_preamp_r3.TXT' generated
+'low_noise_lab_preamp_r3.DRL' generated
+'low_noise_lab_preamp_r3.DRR' generated
+
+'Gerber'
+'low_noise_lab_preamp_r3.GTL' generated
+'low_noise_lab_preamp_r3.G1' generated
+'low_noise_lab_preamp_r3.G30' generated
+'low_noise_lab_preamp_r3.GBL' generated
+'low_noise_lab_preamp_r3.GTP' generated
+'low_noise_lab_preamp_r3.GTS' generated
+'low_noise_lab_preamp_r3.GBS' generated
+'low_noise_lab_preamp_r3.GD1' generated
+'low_noise_lab_preamp_r3.GG1' generated
+'low_noise_lab_preamp_r3.REP' generated
+
+
+Total number of generated files = 13

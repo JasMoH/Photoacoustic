@@ -1,0 +1,16 @@
+photoacoustic spectroscopy
+
+starting with analog front end module
+typical topology is with a lock in amplifier. 
+
+http://www.instructables.com/id/Lock-in-Amplifier/
+reference design with ad630 synchronous demod + ad620 preamp and op27 output lowpass filter
+
+lock in amps ar really just a type of demodulator. they treat the induced wave as a modulated carrier and demodulate around that. lock in amps are synchronous demodulators provided with a reference carrier signal 
+
+considering ada2200 w/ lna pre-amp and posibly post amp. haven't selected the pre-amp.
+ada contains some amount of filtering. need to understand filter topologies, output, etc.
+
+looks like readout is analog, need to get a2d or oscope or something
+
+concerns with power, Sinusoid interferer
