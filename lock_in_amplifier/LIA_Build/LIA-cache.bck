@@ -1,0 +1,21 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SP3T
+D SPDT
+K SWITCH
+F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+$ENDCMP
+#
+$CMP SP4T
+D SPDT
+K SWITCH
+F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+$ENDCMP
+#
+$CMP SPDT
+D SPDT
+K SWITCH
+F https://www.fairchildsemi.com/datasheets/NC/NC7SB3157.pdf
+$ENDCMP
+#
+#End Doc Library
