@@ -1,0 +1,62 @@
+Circuit: *
+
+Error on line 19 : v7 p004 p003 sine(0 .33 3* 100 )
+	 Unknown parameter "*"
+Error on line 20 : v8 vin p004 sine(0 0.2 5* 100 )
+	 Unknown parameter "*"
+WARNING: Less than two connections to node +15.  This node is used by V3.
+WARNING: Less than two connections to node -15.  This node is used by V4.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+vernier = 0.03125
+vernier = 0.015625
+vernier = 0.0078125
+vernier = 0.00390625
+vernier = 0.00195312
+Gmin = 2.03704e-09
+vernier = 0.000976562
+vernier = 0.000488281
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+
+Date: Mon Dec  4 16:29:36 2017
+Total elapsed time: 2.630 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 69196
+traniter = 67330
+tranpoints = 20195
+accept = 14043
+rejected = 6152
+matrix size = 43
+fillins = 89
+solver = Normal
+Thread vector: 55.9/30.9[4] 10.8/8.7[4] 6.3/7.3[1] 0.7/4.2[1]  2592/500
+Matrix Compiler1: 8884 object code size  2.8/1.7/[1.2]
+Matrix Compiler2:     430 opcodes
+

@@ -1,4 +1,4 @@
-update=Tuesday, November 28, 2017 'AMt' 11:13:00 AM
+update=Thursday, November 30, 2017 'PMt' 08:20:42 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,13 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=parts.pretty/ada2200
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

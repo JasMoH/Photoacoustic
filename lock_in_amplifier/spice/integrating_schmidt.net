@@ -1,0 +1,24 @@
+*
+V1 -5 0 -5
+V2 +5 0 5
+V3 +15 0 15
+V4 -15 0 -15
+XU4 N004 vint +5 -5 VOUT LT1001
+V5 P001 0 1
+V6 P002 P001 SINE(0 1 {F})
+V7 P003 P002 SINE(0 .33 3*{F})
+V8 vin P003 SINE(0 0.2 =5{F})
+R3 VOUT 0 10K
+XU1 0 N001 +5 -5 N002 LT1001
+C1 N002 N001 1µ
+R1 N001 N004 1meg
+R2 N002 N001 1meg
+XU2 0 N003 +5 -5 vint LT1001
+R4 N003 N002 100k
+R5 vint N003 100k
+* supply rails
+.TRAN 0.1 0.101 0.1
+.param F=10000
+.lib LTC.lib
+.backanno
+.end
