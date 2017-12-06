@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC4046A
+D Phase Comp & VCO
+K CMOS PLL
+$ENDCMP
+#
 $CMP SP3T
 D SPDT
 K SWITCH
