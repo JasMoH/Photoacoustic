@@ -1,4 +1,4 @@
-update=Thursday, December 07, 2017 'PMt' 01:41:34 PM
+update=Thursday, December 14, 2017 'PMt' 04:44:13 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=parts.pretty
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -58,14 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=parts.pretty/ada2200
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName30=/Users/eru/Documents/lock_in_amplifier/LIA_Build/LIA-cache
