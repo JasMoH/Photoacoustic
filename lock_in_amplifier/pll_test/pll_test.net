@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/eru/Documents/lock_in_amplifier/pll_test/pll_test.sch)
-    (date "Monday, December 11, 2017 'PMt' 03:35:32 PM")
+    (date "Wednesday, December 27, 2017 'PMt' 01:26:52 PM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -46,7 +46,7 @@
       (tstamp 5A2ED69D))
     (comp (ref U7)
       (value LM833)
-      (footprint Housings_SOIC:SO-8_5.3x6.2mm_Pitch1.27mm)
+      (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
       (libsource (lib LIA-cache) (part LM833))
       (sheetpath (names /PLL/) (tstamps /5A2ECF45/))
       (tstamp 5A262F93))
@@ -771,12 +771,12 @@
       (uri "/Library/Application Support/kicad/library/device.lib"))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib"))
-    (library (logical LIA-cache)
-      (uri /Users/eru/Documents/lock_in_amplifier/LIA_Build/LIA-cache.lib))
     (library (logical linear)
       (uri "/Library/Application Support/kicad/library/linear.lib"))
     (library (logical cmos4000)
-      (uri "/Library/Application Support/kicad/library/cmos4000.lib")))
+      (uri "/Library/Application Support/kicad/library/cmos4000.lib"))
+    (library (logical LIA-cache)
+      (uri /Users/eru/Documents/lock_in_amplifier/LIA_Build/LIA-cache.lib)))
   (nets
     (net (code 1) (name /PLL/CLK_IN)
       (node (ref R87) (pin 2))
